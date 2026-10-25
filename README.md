@@ -22,7 +22,7 @@ The CSV-to-JSON Data Cleaner is a Python command-line application that reads CSV
 
 ## Project Structure
 
-```text
+
 csv-json-cleaner/
 ├── cleaner.py
 ├── input.csv
@@ -30,7 +30,6 @@ csv-json-cleaner/
 ├── rejected_rows.json
 ├── test_cleaner.py
 └── README.md
-```
 
 The JSON output files are generated when the program runs.
 
@@ -40,21 +39,21 @@ The JSON output files are generated when the program runs.
 2. Open a terminal in the project directory.
 3. Run the program:
 
-```bash
+
 py cleaner.py
-```
+
 
 On systems where `py` is unavailable, use:
 
-```bash
+
 python cleaner.py
-```
+
 
 The program reads `input.csv` and creates the two JSON output files in the current directory.
 
 ## Sample Input
 
-```csv
+
 name,age,city
  Gopal ,22,Hyderabad
 Priya,25,Bangalore
@@ -62,7 +61,7 @@ Rahul, ,Chennai
 ,30,Delhi
 Anita,abc,Mumbai
 Kiran,28, Pune
-```
+
 
 ## Expected Result
 

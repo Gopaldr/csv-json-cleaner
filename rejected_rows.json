@@ -1,0 +1,29 @@
+[
+  {
+    "row_number": 4,
+    "reason": "Name, age, and city are required",
+    "data": {
+      "name": "Rahul",
+      "age": " ",
+      "city": "Chennai"
+    }
+  },
+  {
+    "row_number": 5,
+    "reason": "Name, age, and city are required",
+    "data": {
+      "name": "",
+      "age": "30",
+      "city": "Delhi"
+    }
+  },
+  {
+    "row_number": 6,
+    "reason": "Age must be a whole number",
+    "data": {
+      "name": "Anita",
+      "age": "abc",
+      "city": "Mumbai"
+    }
+  }
+]
